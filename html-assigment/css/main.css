@@ -1,0 +1,31 @@
+body {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1,h2,footer {
+    background-color:red
+}
+.site-title{
+
+    color:blue
+}
+#my-image {
+    box-shadow: 0 2px 1px black;
+}
+li:nth-child(odd) {
+     /*background color for odd list */
+    background-color:yellow
+}
+a{
+    /*deleting line in link */
+    text-decoration: none;
+}
+a:link{
+    color:orangered;
+    background-color: aqua;
+    border-color: black;
+
+}
+a:hover{
+    background-color: brown;
+}
