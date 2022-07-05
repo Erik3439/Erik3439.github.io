@@ -77,7 +77,7 @@ h2{
    
 }
 /*giving required size to boxex*/
-#username,#password{
+#fullname,#youremail{
     width: 1000px;
 }
 #message{
