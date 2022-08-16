@@ -1,0 +1,406 @@
+
+---------/* css reseting */---------------
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body{
+    font-family: sans-serif, 'Open sans';
+    margin:0.5rem;
+    margin-left: 4rem;
+}
+.container{
+    background: #222;
+}
+.container-nav{
+    padding: 20px;
+}
+/* styling navigaion tags */
+nav,ul,a{
+    display: block;
+    text-decoration: none;
+    font-size:2rem;
+    position: relative;
+    padding:6px;
+    color: #c78c06;
+    margin-left: 150px;
+    margin-bottom: 10px;
+}
+.icon i {
+    border:1px solid #c78c06;
+    position: absolute;
+    color: #c78c06;
+}
+.btn{
+    padding: 0.5rem;
+    position: relative;
+    text-decoration: none;
+    border-top: 2px solid black;
+    background-color: black;
+    color: white;
+}
+/* seting width and height of logo */
+.logo1{
+ height: 100%;
+ width: 12%;
+}
+#search{
+    width: 90%;
+}
+.btn{
+    size:2rem;
+    position: relative;
+    padding: 0.3rem;
+    text-decoration: none;
+    border-top: 1px solid black;
+    color: white;
+    background-color: black;
+}
+.first{
+    size: 15px;
+    color: orange;
+
+}
+/* setting up main banner */
+.banner img{ 
+
+    height: 250px;
+    width: 450px;
+    position: absolute;
+
+}
+.banner-information{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 2rem;
+    position: relative;
+    color: white;
+}
+.img{
+    width:100%;
+    margin-right: 12rem;
+}
+.abc{
+    padding: 0.6rem;
+    color: black;
+    background-color: orange;
+    text-decoration: none;
+
+}
+.abc i ::before{
+    border:none;
+    text-decoration: none;
+    color: black;
+}
+h1{
+    position: relative;
+    font-size: 50px;
+    color: white;
+
+}
+h2{
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 30px;
+}
+.about{
+    position: relative;
+    background-color: #ffe6ac;
+}
+.aboutus-information{
+    font-size: 20px;
+    padding: 20px;
+
+}
+.services{
+    position:relative
+}
+.Our-services{
+    padding: 20px;
+    background-color: #ffe6ac;
+    font-size: 20px;
+}
+.Our-services p{
+margin-bottom: 2rem;
+margin-right: 2rem;
+}
+.marketing{
+    padding: 20px;
+    background-color: #ffe6ac;
+    font-size: 20px;
+}
+.marketing p {
+
+    margin-bottom: 2rem;
+}
+.video-production{
+    padding: 20px;
+    background-color: #ffe6ac;
+    font-size: 20px;
+}
+.video-production p{
+    margin-bottom: 2rem;
+}
+.web-image{
+    padding: 20px;
+    background-color: #ffe6ac;
+    font-size: 20px;
+}
+.web-image p{
+    margin-bottom: 2rem; 
+}
+.our{
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 2rem;
+    margin-left: 1rem;
+    position: relative;
+}
+.vision details img{
+    position: absolute;
+    width: 100%;
+    height: 360px;
+
+}
+.vision details p{
+    position: relative;
+    color:white;
+    font-size: 2rem;
+    padding-top: 2rem;
+}
+.vision details img {
+width: 100%;
+height: 250px;
+
+}
+.vision-information{
+    position: relative;
+    color:white;
+    font-size: 2rem;
+    margin-left: 2rem;
+}
+.button{
+    background-color: black;
+    color: white;
+    size:2rem;
+    margin-top: 6px;
+    padding: 0.5rem;
+    position: absolute;
+    border: 1px solid green;
+    border:1px solid grey
+    
+}
+h4{
+    position: relative;
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 1rem;
+    margin-left: 2rem;
+
+}
+.team{
+    position: relative;
+    padding-top: 5rem;
+    margin-left: 10px;
+}
+.team img{
+    padding-top: 2rem;
+
+}
+.team p{
+    font-size: 2rem;
+    padding:1rem;
+    margin-left: 0px;
+
+}
+.member1-information{
+    background-color: #ffe6ac;
+    position: relative;
+    padding-bottom: 1rem;
+    height: 200px;
+    width: 470px;
+
+}
+h4{
+    padding: 0.5rem;
+    position: relative;
+    font-weight: bold;
+    font-size: 50px;
+    margin-left: 0.2px;
+
+}
+h5{
+    font-size: 1rem;
+    margin-left: 13px;
+    font-weight: bold;
+    border-bottom: 0.2rem solid brown;
+    padding:0.2rem;
+    border-top: 1rem;
+}
+.member2{
+    color: #ffe6ac;
+}
+.member2-information{
+    background-color: #ffe6ac;
+    margin-left: 2rem;
+}
+.contact{
+    margin-left: 0.5rem;
+
+}
+h6{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+
+}
+/* maiking input bars correct */
+#mail, #name{
+    width: 450px;
+
+}
+msg{
+    height:70px;
+    width:450px;
+}
+ /* designing inverse triangle icon  */
+ .im-care-right{
+    size: 4px;
+    margin-left:0.5rem
+    
+ }
+ .im-care-right:before{
+    color: white;
+    font-size: 2rem;
+    border:1px solid black;
+
+ }
+ .i::before{
+    font-size: 18rem;
+    border:green
+ }
+ /* giving styles to button */
+ .butn{
+    color:darkorange;
+background: black;
+border: 1px solid black;
+border-bottom: 4px;
+height: 60px;
+width: 110px;
+margin-top: 20px;
+
+ }
+ 
+ table,th, td{
+    background-color: white;
+    padding:2rem;
+    width: 500PX ;
+    Margin-top:20px;
+    padding: 20px;
+    border: 1px solid  black;
+ }
+ table,th{
+    background-color: #ffe6ac ;
+ }
+ .Location{
+    padding:2rem;
+
+ }
+/* styling footer */
+#footer{
+    background-color: black;
+}
+#footer-link
+{
+    color:#FF7F50;
+}
+#footer p{
+    color:#FF7F50; 
+    font-size: 1rem;
+    padding-bottom: 0.8rem;
+    padding-top: 1rem;
+
+}
+/* setting media query for desktop */
+@media screen and (min-width:760px) {
+    body {
+        font-family: sans-serif, 'Open sans';
+
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+#search{
+    position:relative;
+    display: inline-block;
+}
+.search{
+    float: right;
+}
+.icon{
+    display: inline-block;
+    padding: 1rem;
+    width:100px;}
+
+nav ul li{
+    display: flex;
+    display: inline-block;
+    width:100px;
+    
+}
+.flex0{
+    display:flex;
+    margin-right: 12rem;
+    margin-left:12rem;
+    
+
+}
+}
+
+
